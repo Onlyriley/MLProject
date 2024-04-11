@@ -11,7 +11,8 @@ This script doesnt work quite yet but the initiative is there
 '''
 # Function to resize image to 32x32
 def resize_image(image):
-    return cv2.resize(image, (32, 32))
+    blur_image = cv2.blur(image, (10, 10))
+    return cv2.resize(blur_image, (32, 32))
 
 # Function to load images from folder, resize, and convert to numpy array
 def load_images(folder_path):
