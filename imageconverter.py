@@ -27,7 +27,7 @@ def load_images(folder_path):
     return np.array(images)
 
 input_folder = "./input"
-train_folder = "./traindata"
+#train_folder = "./traindata"
 output_file = "output.pkl"
 train_output_file = "train.pkl"
 images = load_images(input_folder)
@@ -35,7 +35,7 @@ images = load_images(input_folder)
 with open(output_file, 'wb') as f:
     pickle.dump(images, f)
 
-train_images = load_images(train_folder)
+#train_images = load_images(train_folder)
 
-with open(train_output_file, 'wb') as f:
-    pickle.dump(train_images, f)
+#with open(train_output_file, 'wb') as f:
+#    pickle.dump(train_images, f)
