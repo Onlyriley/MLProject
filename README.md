@@ -5,6 +5,9 @@ Yes. It can. (sometimes)
 ## SVMTesting.ipynb
 * Matt's SVM notebook
 
+## RandomForestTesting.ipynb
+* Sal's Random Forest notebook
+
 ## imagconverter.py
 * Converts .jpg images from 'input' folder to 'output.pkl' in np.array() format
 * Also can be used for converting images to be used for training purposes
