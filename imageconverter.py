@@ -29,7 +29,7 @@ def load_images(folder_path):
 input_folder = "./input"
 #train_folder = "./traindata"
 output_file = "output.pkl"
-train_output_file = "train.pkl"
+#train_output_file = "train.pkl"
 images = load_images(input_folder)
 
 with open(output_file, 'wb') as f:
